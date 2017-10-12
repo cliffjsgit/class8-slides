@@ -420,6 +420,8 @@ print(stat)
 
 For example, most Unix systems provide a command called md5sum that reads the contents of a file and computes a “checksum”. This command provides an efficient way to check whether two files have the same contents. The probability that different contents yield the same checksum is very small (that is, unlikely to happen before the universe collapses).
 
++++++
+
 You can use a pipe to run md5sum from Python and get the result:
 
 ```python
