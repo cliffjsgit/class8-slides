@@ -10,7 +10,7 @@ revealOptions:
 ### ITSE-1402 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 8: Chapter 14: Files</span>
 <br /><br />
-##### [https://z3r0.tech/slides-8](https://z3r0.tech/slides-8)
+##### [https://coder.run/1402-class8](https://coder.run/1402-class8)
 
 -----
 
@@ -18,7 +18,7 @@ revealOptions:
 
 +++++
 
-[https://z3r0.tech/1402-chap14](https://z3r0.tech/1402-chap14)
+[https://coder.run/1402-chap14](https://coder.run/1402-chap14)
 
 +++++
 
@@ -34,7 +34,7 @@ If a program isn't transient, it is persistent. Meaning, they run for a long tim
 
 +++++
 
-One of the simplest ways for programs to maintain their data is by reading and writing text files. We have already seen programs that read text files; in this chapter we will see programs that write them. An alternative is to store the state of the program in a database or with a module, pickle.
+One of the simplest ways for programs to maintain their data is by reading and writing text files. We have already seen programs that read text files; in this chapter we will see programs that write them. An alternative is to store the state of the program in a database or with a module, shelve.
 
 +++++
 
@@ -84,6 +84,15 @@ fout.close()
 ```
 
 Note: If you don’t close the file, it gets closed for you when the program ends.
+
++++++
+
+There is also a better way to open files that you should typically use. This way will open the file and automatically close it once the code inside it completes.
+
+```python
+with open("test.txt", "w") as out_file:
+    out_file.write("Hello!\nTest 123!")
+```
 
 +++++
 
@@ -384,7 +393,7 @@ In other words, pickling and then unpickling has the same effect as copying the 
 
 +++++
 
-You can use pickle to store non-strings in a database. In fact, this combination is so common that it has been encapsulated in a module called shelve.
+You can use pickle to store non-strings in a database. In fact, this combination is so common that it has been encapsulated in a module called shelve which works almost identically to dmb in manner of opening, defining, modifying, and accesing objects.
 
 +++++
 
@@ -509,4 +518,11 @@ __name__ is a built-in variable that is set when the program starts. If the prog
 
 +++++
 
-Homework is 14.3 and extra credit is tp do a CodeFights Challenge.
+#### Project 2
+
+##### Project: [https://coder.run/1402-project2](https://coder.run/1402-project2)
+##### Project Repository: [https://coder.run/1402-project2-repo](https://coder.run/1402-project2-repo)
+
++++++
+
+Homework is 14.3 and you are welcome to use the rest of the class to work on that and project 1 or project 2.
