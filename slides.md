@@ -96,7 +96,7 @@ with open("test.txt", "w") as out_file:
 
 +++++
 
-```python
+<pre class="stretch"><code class="python" data-trim data-noescape>
 #!/usr/bin/env python3
 
 # Exercise 14.1
@@ -109,7 +109,7 @@ with open("test.txt", "w") as out_file:
 # 
 # If an error occurs while opening, reading, writing or closing files, your
 # program should catch the exception, print an error message, and exit.
-```
+</code></pre>
 
 +++++
 
@@ -500,7 +500,7 @@ __name__ is a built-in variable that is set when the program starts. If the prog
 
 +++++
 
-```python
+<pre class="stretch"><code class="python" data-trim data-noescape>
 #!/usr/bin/env python3
 
 # Exercise 14.2
@@ -514,7 +514,7 @@ __name__ is a built-in variable that is set when the program starts. If the prog
 # Write a module that imports anagram_sets and provides two new functions: 
 # store_anagrams should store the anagram dictionary in a "shelf"; read_anagrams
 # should look up a word and return a list of its anagrams.
-```
+</code></pre>
 
 +++++
 
