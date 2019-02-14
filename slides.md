@@ -10,7 +10,7 @@ revealOptions:
 ### ITSE-1402 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 8: Chapter 14: Files</span>
 <br /><br />
-##### [https://coder.run/1402-class8](https://coder.run/1402-class8)
+##### [https://bit.ly/1402-class8](https://bit.ly/1402-class8)
 
 -----
 
@@ -18,7 +18,7 @@ revealOptions:
 
 +++++
 
-[https://coder.run/1402-chap14](https://coder.run/1402-chap14)
+[https://bit.ly/1402-chap14](https://bit.ly/1402-chap14)
 
 +++++
 
@@ -516,13 +516,7 @@ __name__ is a built-in variable that is set when the program starts. If the prog
 # should look up a word and return a list of its anagrams.
 </code></pre>
 
-+++++
-
-#### Project 2
-
-##### Project: [https://coder.run/1402-project2](https://coder.run/1402-project2)
-##### Project Repository: [https://coder.run/1402-project2-repo](https://coder.run/1402-project2-repo)
 
 +++++
 
-Homework is 14.3 and you are welcome to use the rest of the class to work on that and project 1 or project 2.
+Homework is 14.3.
