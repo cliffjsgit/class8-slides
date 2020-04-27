@@ -499,6 +499,38 @@ If you want to reload a module, you can use the built-in function reload, but it
 
 +++++
 
+##### PEP 8 -- Style Guide for Python Code
+
+__PEP 8__ is the Style Guide for Python Code.   
+PEP8 provides coding conventions for the Python code comprising the standard library in the main Python distribution. https://www.python.org/dev/peps/pep-0008/
+
+The PEP8 guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of Python code. 
+
+A style guide is about consistency. Consistency with the style guide is important. Consistency within a project is more important. Consistency within one module or function is the most important.
+
++++++
+
+Some of the areas covered in the PEP8 Style Guide include:  
+- Code Lay-out   
+-- Indentation   
+-- Tabs or Spaces   
+-- Maximum Line Length   
+-- Should a Line Break Before or After a Binary Operator?   
+-- Blank Lines   
+-- Source File Encoding   
+-- Imports   
+-- Module Names   
+- String Quotes
+- Whitespace in Expressions and Statements   
+- When to Use Trailing Commas      
+- Comments      
+- Documentation Strings      
+- Naming Conventions      
+
+However, know when to be inconsistent -- sometimes style guide recommendations just aren't applicable.
+
++++++
+
 <pre class="stretch"><code class="python" data-trim data-noescape>
 #!/usr/bin/env python3
 
