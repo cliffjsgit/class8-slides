@@ -493,6 +493,10 @@ if __name__ == '__main__':
 
 __name__ is a built-in variable that is set when the program starts. If the program is running as a script, __name__ has the value '__main__'; in that case, the test code runs. Otherwise, if the module is being imported, the test code is skipped.
 
+Warning: If you import a module that has already been imported, Python does nothing. It does not re-read the file, even if it has changed.
+
+If you want to reload a module, you can use the built-in function reload, but it can be tricky, so the safest thing to do is restart the interpreter and then import the module again.
+
 +++++
 
 <pre class="stretch"><code class="python" data-trim data-noescape>
