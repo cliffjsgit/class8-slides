@@ -7,18 +7,13 @@ revealOptions:
     transition: 'fade'
 ---
 
-### ITSE-1402 Intermediate Python
+### ITSE-1042 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 8: Chapter 14: Files</span>
 <br /><br />
-##### [https://bit.ly/1402-class8](https://bit.ly/1402-class8)
 
 -----
 
 ##### Chapter 14: Files
-
-+++++
-
-[https://bit.ly/1402-chap14](https://bit.ly/1402-chap14)
 
 +++++
 
