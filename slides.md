@@ -293,7 +293,7 @@ A database is a file that is organized for storing data. Many databases are orga
 
 +++++
 
-The module dbm provides an interface for creating and updating database files. As an example, we’ll create a database that contains captions for image files.
+The module dbm provides a generic interface for creating and updating UNIX dbm database files. As an example, we’ll create a database that contains captions for image files.
 
 Opening a database is similar to opening other files:
 
