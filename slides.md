@@ -393,12 +393,14 @@ You can use pickle to store non-strings in a database. In fact, this combination
 +++++
 
 
-##### 14.7 Choosing a Database
+##### Choosing a Database
    
-DBM provides a key/data pairs in a data file. It is basically a persistent dictionary. 
+DBM provides key/data pairs in a data file. It is basically a persistent dictionary, which can be used 
+as a readily available simple database. 
+
 There are 4 alternative DBM services available in Python: dbm, dbm.gnu, and dbm.ndbm. and dbm.dumb 
 (Portable DBM implemented in Python). In addition, the anydbm module provides a generic intererface to all of 
-the dbm implementations, and chooses the best DBM module avaiable. 
+the dbm implementations, and chooses the best DBM module avaiable.
 
 The DBM modules provide you with your data stored as a key/value pair. You can use the the value of a DBM persistent dictionary 
 when:
